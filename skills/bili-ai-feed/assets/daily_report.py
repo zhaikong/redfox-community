@@ -10,6 +10,8 @@ Usage:
     python3 daily_report.py --subscribe
 """
 
+import utils.transport
+import utils.session
 import argparse
 import json
 import os
